@@ -45,6 +45,10 @@ a {
   vertical-align: text-bottom;
 }
 
+.bg-primary-color {
+  background-color: #ffe7d2;
+}
+
 .header-content {
   display: flex;
   align-items: center;
@@ -97,12 +101,28 @@ a {
 .jumbotron-content .jumbotron-title button.blue-btn {
   margin-top: 50px;
 }
-.jumbotron-content .jumbotron-title span {
-  font-size: 12px;
-}
 .jumbotron-content .jumbotron-title p.small-text {
   padding: 20px 0;
 }
 .jumbotron-content .jumbotron-img {
   width: 50%;
+}
+
+.bg-primary-color {
+  padding: 20px 0;
+}
+.bg-primary-color h3 {
+  text-align: center;
+}
+.bg-primary-color .img-row {
+  display: flex;
+  justify-content: space-around;
+}
+.bg-primary-color .img-row div {
+  width: calc(100% / 3 - 150px);
+  padding: 30px;
+}
+.bg-primary-color .single-img {
+  width: 30%;
+  margin: auto;
 }

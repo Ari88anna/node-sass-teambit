@@ -19,6 +19,13 @@
     justify-content: space-between;
 }
 
+@mixin flex_jsa {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;     
+    justify-content: space-around;
+}
+
 @mixin a_style {
     font-size: 13px;
     font-weight: 700;

@@ -1,3 +1,4 @@
+//jumbotron section
 .jumbotron-content {
     padding: $standard-padding;
     @include flex;
@@ -19,19 +20,38 @@
             margin-top: 50px;
         }
 
-        span {
-            font-size: $small-text;
-        }
-
         p.small-text  {
             padding: 20px 0;
-        }
-        
+        }       
        
     }
 
     .jumbotron-img {
         width: 50%;
+    }
+}
+
+// no feedback section
+.bg-primary-color {
+    padding: $standard-padding;
+
+    h3 {
+        text-align: center;
+    }
+
+    .img-row {
+        @include flex_jsa;
+
+        div{
+            width: calc(100% / 3 - 150px);
+            padding: 30px;
+            
+        }
+    }
+
+    .single-img {
+        width: 30%;
+        margin: auto;
     }
 }
 
