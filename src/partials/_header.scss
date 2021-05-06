@@ -1,0 +1,18 @@
+.header-content {
+    @include flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+    .header-menu {
+        list-style-type: none;
+        @include flex;
+
+        li{
+           padding-left: 30px; 
+
+           a {
+               @include a_style;
+           }
+        }
+    }
+}

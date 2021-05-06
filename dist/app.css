@@ -1,1 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.header-content .header-menu {
+  list-style-type: none;
+  display: flex;
+}
+.header-content .header-menu li {
+  padding-left: 30px;
+}
+.header-content .header-menu li a {
+  font-size: 15px;
+  font-weight: 700;
+  color: #58402c;
+}

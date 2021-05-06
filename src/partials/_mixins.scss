@@ -1,0 +1,11 @@
+@mixin flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;    
+}
+
+@mixin a_style {
+    font-size: 15px;
+    font-weight: 700;
+    color: $primary_text_color
+}
