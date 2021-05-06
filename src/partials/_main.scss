@@ -1,0 +1,38 @@
+.jumbotron-content {
+    padding: $standard-padding;
+    @include flex;
+
+
+    .jumbotron-title {
+        width: 50%;
+
+        h1 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        p.main-text {            
+            padding: 10px 0;
+        }
+
+        button.blue-btn {
+            margin-top: 50px;
+        }
+
+        span {
+            font-size: $small-text;
+        }
+
+        p.small-text  {
+            padding: 20px 0;
+        }
+        
+       
+    }
+
+    .jumbotron-img {
+        width: 50%;
+    }
+}
+
+

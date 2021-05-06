@@ -5,7 +5,11 @@
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 100%;
 }
 
 .container {
@@ -15,4 +19,23 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.main-text {
+    font-size: $paragraphs_txt_size;
+    color: $primary_text_color;
+}
+
+  
+.small-text {
+    font-size: $small-text;
+}
+
+.blue-btn {
+    @include primary-btn;
+}
+
+.blue-btn img {
+    width: 18px;
+    vertical-align: text-bottom;
 }

@@ -5,7 +5,11 @@
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
 }
 
 .container {
@@ -17,20 +21,88 @@ a {
   text-decoration: none;
 }
 
+.main-text {
+  font-size: 15px;
+  color: #58402c;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.blue-btn {
+  color: white;
+  background-color: #2e4790;
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.blue-btn img {
+  width: 18px;
+  vertical-align: text-bottom;
+}
+
 .header-content {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 20px 0;
+  border-bottom: 1px solid #58402c;
 }
 .header-content .header-menu {
   list-style-type: none;
   display: flex;
+  align-items: center;
 }
 .header-content .header-menu li {
   padding-left: 30px;
 }
 .header-content .header-menu li a {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 700;
   color: #58402c;
+}
+.header-content .header-menu li.sign-up {
+  display: flex;
+}
+.header-content .header-menu li.sign-up a {
+  color: blue;
+  border: 1px solid blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+.header-content .header-menu li.sign-up img {
+  width: 25px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.jumbotron-content {
+  padding: 20px 0;
+  display: flex;
+}
+.jumbotron-content .jumbotron-title {
+  width: 50%;
+}
+.jumbotron-content .jumbotron-title h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.jumbotron-content .jumbotron-title p.main-text {
+  padding: 10px 0;
+}
+.jumbotron-content .jumbotron-title button.blue-btn {
+  margin-top: 50px;
+}
+.jumbotron-content .jumbotron-title span {
+  font-size: 12px;
+}
+.jumbotron-content .jumbotron-title p.small-text {
+  padding: 20px 0;
+}
+.jumbotron-content .jumbotron-img {
+  width: 50%;
 }

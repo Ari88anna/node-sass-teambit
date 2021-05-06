@@ -1,17 +1,35 @@
 .header-content {
-    @include flex;
-    justify-content: space-between;
-    padding: 20px 0;
+    @include flex_jsb_center;    
+    padding: $standard-padding;
+    border-bottom: 1px solid $primary_text_color;
+    
     
     .header-menu {
         list-style-type: none;
-        @include flex;
+        @include  flex_align_center;
 
         li{
-           padding-left: 30px; 
+           padding-left: 30px;          
 
-           a {
-               @include a_style;
+            a {
+               @include a_style;             
+            }
+
+            &.sign-up {
+                @include flex;
+                
+                a {
+                    color: blue;
+                    border: 1px solid blue;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+
+                img {
+                    width: 25px;
+                    margin-right: 5px;
+                    vertical-align: middle;
+                }
            }
         }
     }
