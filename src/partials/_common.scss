@@ -63,8 +63,16 @@ a {
         margin: 40px 0;
     }
 
+    a {
+        font-size: $how-we-work-text;
+    }
+
     .how-we-work-img {
         margin-top: 20px;
+    }
+
+    &.right {
+        justify-content: flex-end;
     }
 }
 

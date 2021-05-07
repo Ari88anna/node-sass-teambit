@@ -63,8 +63,14 @@ a {
   font-size: 13px;
   margin: 40px 0;
 }
+.flex-content a {
+  font-size: 13px;
+}
 .flex-content .how-we-work-img {
   margin-top: 20px;
+}
+.flex-content.right {
+  justify-content: flex-end;
 }
 
 .header-content {
