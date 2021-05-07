@@ -23,7 +23,7 @@ a {
 
 .main-text {
   font-size: 15px;
-  color: #58402c;
+  color: #7f14d4;
 }
 
 .small-text {
@@ -55,16 +55,20 @@ a {
   width: 26%;
 }
 .flex-content h3 {
-  color: #58402c;
+  color: #0414b3;
   font-size: 18px;
 }
 .flex-content p {
   font-size: 13px;
+  color: #7f14d4;
   margin: 40px 0;
 }
 .flex-content a {
   font-size: 13px;
-  color: blue;
+  color: #0414b3;
+}
+.flex-content a:hover {
+  text-decoration: underline;
 }
 .flex-content .how-we-work-img {
   margin-top: 20px;
@@ -78,7 +82,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
-  border-bottom: 1px solid #58402c;
+  border-bottom: 1px solid #7f14d4;
 }
 .header-content .logo {
   width: 150px;
@@ -94,7 +98,7 @@ a {
 .header-content .header-menu li a {
   font-size: 13px;
   font-weight: 700;
-  color: #58402c;
+  color: #7f14d4;
 }
 .header-content .header-menu li.sign-up {
   display: flex;
@@ -121,7 +125,7 @@ a {
 .jumbotron-content .jumbotron-title h1 {
   font-size: 30px;
   font-weight: bold;
-  color: #58402c;
+  color: #0414b3;
 }
 .jumbotron-content .jumbotron-title p.main-text {
   padding: 10px 0;
@@ -137,12 +141,12 @@ a {
 }
 
 .advantages-section {
-  background-color: #ffe7d2;
+  background-color: #0414b3;
   padding: 20px 0;
 }
 .advantages-section .container h3 {
   text-align: center;
-  color: #58402c;
+  color: #7f14d4;
 }
 .advantages-section .container .img-row {
   display: flex;
@@ -159,6 +163,7 @@ a {
 }
 .advantages-section .container .img-row div p {
   font-size: 12px;
+  color: #7f14d4;
 }
 .advantages-section .container .single-img {
   width: 25%;
@@ -170,4 +175,8 @@ a {
 }
 .advantages-section .container .last-subtitle {
   margin-top: 100px;
+}
+
+.join-us {
+  background-color: #0414b3;
 }

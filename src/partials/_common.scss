@@ -53,18 +53,24 @@ a {
     }
 
     h3 {
-        color: $primary_text_color;
+        color: $primary_color;
         font-size: $how-we-work-title;
     }
 
     p {
         font-size: $how-we-work-text;
+        color: $primary_text_color;
         margin: 40px 0;
     }
 
     a {
         font-size: $how-we-work-text;
-        color: blue;
+        color: $primary_color;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
     }
 
     .how-we-work-img {

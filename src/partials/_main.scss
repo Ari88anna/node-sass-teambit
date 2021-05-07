@@ -10,7 +10,7 @@
         h1 {
             font-size: 30px;
             font-weight: bold;
-            color: $primary_text_color;
+            color: $primary_color;
         }
 
         p.main-text {            
@@ -59,7 +59,8 @@
                 }
 
                 p{
-                    font-size: $small-text;    
+                    font-size: $small-text; 
+                    color: $primary_text_color;   
                 }  
                 
             }
@@ -83,7 +84,11 @@
     }
 }
 
-// Feedback section
+// Join Us section
+
+.join-us {
+    background-color: $primary_color;
+}
 
 
 
