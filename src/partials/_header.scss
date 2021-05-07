@@ -3,7 +3,10 @@
     padding: $standard-padding;
     border-bottom: 1px solid $primary_text_color;
     
-    
+    .logo {
+        width: 150px;
+    }
+
     .header-menu {
         list-style-type: none;
         @include  flex_align_center;

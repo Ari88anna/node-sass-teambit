@@ -45,12 +45,37 @@ a {
   vertical-align: text-bottom;
 }
 
+.flex-content {
+  display: flex;
+  padding: 20px 0;
+}
+.flex-content .support-platform {
+  width: 50%;
+}
+.flex-content .how-we-work {
+  width: 26%;
+}
+.flex-content h3 {
+  color: #58402c;
+  font-size: 18px;
+}
+.flex-content p {
+  font-size: 13px;
+  margin: 40px 0;
+}
+.flex-content .how-we-work-img {
+  margin-top: 20px;
+}
+
 .header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
   border-bottom: 1px solid #58402c;
+}
+.header-content .logo {
+  width: 150px;
 }
 .header-content .header-menu {
   list-style-type: none;

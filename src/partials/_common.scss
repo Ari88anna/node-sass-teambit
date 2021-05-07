@@ -41,5 +41,34 @@ a {
 }
 
 
+.flex-content {
+    @include flex;
+    padding: $standard-padding;
+
+    .support-platform {
+        width: 50%;
+    }
+
+    .how-we-work {
+        width: 26%;
+    }
+
+    h3 {
+        color: $primary_text_color;
+        font-size: $how-we-work-title;
+    }
+
+    p {
+        font-size: $how-we-work-text;
+        margin: 40px 0;
+    }
+
+    .how-we-work-img {
+        margin-top: 20px;
+    }
+}
+
+
+
 
 
