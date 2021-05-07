@@ -45,10 +45,6 @@ a {
   vertical-align: text-bottom;
 }
 
-.bg-primary-color {
-  background-color: #ffe7d2;
-}
-
 .header-content {
   display: flex;
   align-items: center;
@@ -94,6 +90,7 @@ a {
 .jumbotron-content .jumbotron-title h1 {
   font-size: 30px;
   font-weight: bold;
+  color: #58402c;
 }
 .jumbotron-content .jumbotron-title p.main-text {
   padding: 10px 0;
@@ -108,21 +105,38 @@ a {
   width: 50%;
 }
 
-.bg-primary-color {
+.advantages-section {
+  background-color: #ffe7d2;
   padding: 20px 0;
 }
-.bg-primary-color h3 {
+.advantages-section .container h3 {
   text-align: center;
+  color: #58402c;
 }
-.bg-primary-color .img-row {
+.advantages-section .container .img-row {
   display: flex;
   justify-content: space-around;
 }
-.bg-primary-color .img-row div {
-  width: calc(100% / 3 - 150px);
-  padding: 30px;
+.advantages-section .container .img-row div {
+  width: calc(100% / 3 - 30px);
+  padding: 40px;
+  text-align: center;
 }
-.bg-primary-color .single-img {
-  width: 30%;
+.advantages-section .container .img-row div img {
+  height: 70px;
+  width: auto;
+}
+.advantages-section .container .img-row div p {
+  font-size: 12px;
+}
+.advantages-section .container .single-img {
+  width: 25%;
   margin: auto;
+}
+.advantages-section .container .advantages-section-divider {
+  border-bottom: 1px solid black;
+  margin: 60px 0;
+}
+.advantages-section .container .last-subtitle {
+  margin-top: 100px;
 }

@@ -26,6 +26,13 @@
     justify-content: space-around;
 }
 
+@mixin flex_col {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; 
+    flex-direction: column;
+}
+
 @mixin a_style {
     font-size: 13px;
     font-weight: 700;

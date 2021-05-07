@@ -10,6 +10,7 @@
         h1 {
             font-size: 30px;
             font-weight: bold;
+            color: $primary_text_color;
         }
 
         p.main-text {            
@@ -32,26 +33,53 @@
 }
 
 // no feedback section
-.bg-primary-color {
+.advantages-section{
+    background-color: $primary_color;
     padding: $standard-padding;
 
-    h3 {
-        text-align: center;
-    }
+    .container {
 
-    .img-row {
-        @include flex_jsa;
 
-        div{
-            width: calc(100% / 3 - 150px);
-            padding: 30px;
-            
+        h3 {
+            text-align: center;
+            color: $primary_text_color;
         }
-    }
+    
+        .img-row {
+            @include flex_jsa;
+    
+            div{
+                width: calc(100% / 3 - 30px);
+                padding: 40px; 
+                text-align: center; 
 
-    .single-img {
-        width: 30%;
-        margin: auto;
+                img {
+                    height: 70px;
+                    width: auto;
+                }
+
+                p{
+                    font-size: $small-text;    
+                }  
+                
+            }
+        }
+    
+        .single-img {
+            width: 25%;
+            margin: auto;
+        }
+
+        .advantages-section-divider {
+            border-bottom: 1px solid black;
+            margin: 60px 0;
+        }
+
+        .last-subtitle {
+            margin-top: 100px;
+        }
+    
+       
     }
 }
 
