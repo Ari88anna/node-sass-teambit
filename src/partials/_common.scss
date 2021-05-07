@@ -26,20 +26,19 @@ a {
     color: $primary_text_color;
 }
 
-  
+
 .small-text {
     font-size: $small-text;
 }
 
 .blue-btn {
     @include primary-btn;
-}
 
-.blue-btn img {
-    width: 18px;
-    vertical-align: text-bottom;
+    img {
+        width: 18px;
+        vertical-align: text-bottom;
+    }
 }
-
 
 .flex-content {
     @include flex;
@@ -65,6 +64,7 @@ a {
 
     a {
         font-size: $how-we-work-text;
+        color: blue;
     }
 
     .how-we-work-img {

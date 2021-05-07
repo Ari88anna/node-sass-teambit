@@ -39,7 +39,6 @@ a {
   font-size: 12px;
   cursor: pointer;
 }
-
 .blue-btn img {
   width: 18px;
   vertical-align: text-bottom;
@@ -65,6 +64,7 @@ a {
 }
 .flex-content a {
   font-size: 13px;
+  color: blue;
 }
 .flex-content .how-we-work-img {
   margin-top: 20px;
